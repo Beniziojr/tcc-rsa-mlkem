@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+experimento/build/
+experimento/dependencias/
+experimento/ferramentas_python/
+experimento/cache_matplotlib/
+experimento/logs/*.log
+*.pem
+*.key
+*.p12
+*.pfx

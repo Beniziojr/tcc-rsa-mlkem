@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "status": "configuracao_fixada_para_30_blocos_iniciais_coleta_ainda_nao_executada",
+  "mode": "collect",
+  "blocks": 30,
+  "logical_cpu": 0,
+  "seed_order": 20261014,
+  "warmup_rsa_keygen": 3,
+  "warmup_other_operations": 1000,
+  "batches": [
+    1,
+    1024,
+    1024,
+    1024,
+    16,
+    512,
+    16,
+    512
+  ],
+  "batch_order": [
+    "RSA-keygen",
+    "MLKEM-keygen",
+    "RSA-send",
+    "MLKEM-send",
+    "RSA-receive",
+    "MLKEM-receive",
+    "RSA-cycle",
+    "MLKEM-cycle"
+  ],
+  "pilot_runs": [
+    "experimento\\execucoes\\pilot-20261012T222555Z-1bc29856",
+    "experimento\\execucoes\\pilot-20261012T223421Z-5e630dfc"
+  ],
+  "region_definition": "PROTOCOLO_BENCHMARK.md",
+  "priority": "normal",
+  "provider": "default",
+  "openssl": "3.5.5",
+  "required_conditions": [
+    "Computador sem uso",
+    "Encerrar cargas pesadas e downloads",
+    "Pausar sincronizacao OneDrive",
+    "Registrar condicoes e intervencoes"
+  ],
+  "exclusion_rule": "Nenhuma exclusao por discrepancia; somente criterio definido e causa externa documentada, preservando todos os dados originais.",
+  "extension_rule": "Os 30 blocos sao a amostra inicial prevista; avaliar a incerteza antes de propor extensao documentada. Nao prometer estabilidade dos intervalos com essa amostra.",
+  "sha256": {
+    "benchmark.c": "179D6D01247D991F53BDCBBA969D1EFE7033B07EB998BE1250EFDF1A42A37EDC",
+    "build/benchmark.exe": "1A66A4D9591159A20E84E783DBAA03B1895ED53C65DF6C36E58EFAE177D3FC28",
+    "compilar_benchmark.cmd": "B25A898D926CD85C7758CBEF3CD0E1DDBCB8C83653394EA6FC07281880ECDC37",
+    "dependencias/openssl-msvc-3.5.5/bin/libcrypto-3-x64.dll": "C9DBBD562D37D5D2410B6595B23B88E8E157BDBB521B00952E7A3DDA17A1E64A"
+  }
+}

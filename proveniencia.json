@@ -1,0 +1,32 @@
+{
+  "coleta_principal": "collect-20261012T224200Z-1c7547d6",
+  "dados_brutos": "raw.csv, sizes.csv, clock.csv, selected_batches.txt e SUCCESS.txt são cópias byte a byte dos originais.",
+  "exportacao_metadados": "Os caminhos do usuário foram abreviados para experimento; snapshots de processos e identificadores particulares não integram o pacote público. Os originais completos permanecem no acervo local.",
+  "analise": "Relatórios são regenerados a partir dos dados publicados; hashes de config.json e run.json referem-se à exportação pública. source hashes dos originais são registrados separadamente abaixo.",
+  "adaptacoes_scripts": "analisar_benchmark.py registra apenas o nome da execução em run_directory; gerar_resultados.py atualiza uma frase editorial do relatório. Os cálculos e benchmark.c não foram alterados.",
+  "hashes_originais_sha256": {
+    "experimento/execucoes/collect-20261012T224200Z-1c7547d6/raw.csv": "baff37df58d06a13f21c1cf4819c369a493cde1cb88cf4134eeeb59c64776a3a",
+    "experimento/execucoes/collect-20261012T224200Z-1c7547d6/sizes.csv": "efb3de08cd580de60e7f4aaf15792cf3147d1203762a96e30f55faf75b5faef2",
+    "experimento/execucoes/collect-20261012T224200Z-1c7547d6/clock.csv": "d489e382488d1208659beb4dc23f776ce0a1dcec5d45a3fed18210159b858641",
+    "experimento/execucoes/collect-20261012T224200Z-1c7547d6/selected_batches.txt": "3ab72e4c723a2f7520241fb70e383085a7569a6435ed08f281e3268166fa0285",
+    "experimento/execucoes/collect-20261012T224200Z-1c7547d6/SUCCESS.txt": "af256be1cb42455f6b2be93f6364c0afb11484faacfef1ddc224521610f1010b",
+    "originais_nao_publicados/collect-20261012T224200Z-1c7547d6/config.json": "c32ff2df299b069782a7811ef8a1c524abc01d3b5c09bb72de9a335b63370cad",
+    "originais_nao_publicados/collect-20261012T224200Z-1c7547d6/run.json": "db3ba5de675d7067385ce94908dc9c30ddbc437d6c27a10946bbe5c021d9a004",
+    "experimento/execucoes/pilot-20261012T222555Z-1bc29856/raw.csv": "32e71380da1f0aa430694519d2d7e52a99cf4ebf904dbed7cebb33f0004d63d7",
+    "experimento/execucoes/pilot-20261012T222555Z-1bc29856/sizes.csv": "7ca8ece05d8d5f8ee501044fef48d155464dbf288828f99baa0989b0dbc64b27",
+    "experimento/execucoes/pilot-20261012T222555Z-1bc29856/clock.csv": "f55c57969593636f974c5f53324ac9e76d160ead8a69221f26d2ce62bc1630b3",
+    "experimento/execucoes/pilot-20261012T222555Z-1bc29856/selected_batches.txt": "3ab72e4c723a2f7520241fb70e383085a7569a6435ed08f281e3268166fa0285",
+    "experimento/execucoes/pilot-20261012T222555Z-1bc29856/SUCCESS.txt": "8d22a45f3ab0be5ba195b1d5ce06f3865389bb4e042ce9d74cd5b1305641675c",
+    "originais_nao_publicados/pilot-20261012T222555Z-1bc29856/config.json": "2a88844efc97d8bb4ac231f70a5b894c2ffa46dd09ef0e1ed75e05582a5805c1",
+    "originais_nao_publicados/pilot-20261012T222555Z-1bc29856/run.json": "2038214b73a19c8da5cb17875d49c6b66deb88e6fee319862cc4d48920f0d9aa",
+    "experimento/execucoes/pilot-20261012T223421Z-5e630dfc/raw.csv": "78bb3cbfb38c9b66bc471a75433671d4286a122f3560716b257d42b8a30d93c0",
+    "experimento/execucoes/pilot-20261012T223421Z-5e630dfc/sizes.csv": "fbf1792e05e6a43569af482465f7d24a4b58c0760e1143d0e08d55fdc08e1e0a",
+    "experimento/execucoes/pilot-20261012T223421Z-5e630dfc/clock.csv": "e0a7c5a6893c0f572400d27d6ad49d0ca11b150c01db167f880a173b888a22f6",
+    "experimento/execucoes/pilot-20261012T223421Z-5e630dfc/selected_batches.txt": "3ab72e4c723a2f7520241fb70e383085a7569a6435ed08f281e3268166fa0285",
+    "experimento/execucoes/pilot-20261012T223421Z-5e630dfc/SUCCESS.txt": "8d22a45f3ab0be5ba195b1d5ce06f3865389bb4e042ce9d74cd5b1305641675c",
+    "originais_nao_publicados/pilot-20261012T223421Z-5e630dfc/config.json": "991cf256e5cf6b8431f57759d13e903ea4a3df5ccef58f60fb285144c666877f",
+    "originais_nao_publicados/pilot-20261012T223421Z-5e630dfc/run.json": "dd0eedbf3308e5db16d4150fec009122ab04b91e91d23dab8e93b873407d8035"
+  },
+  "benchmark_original_sha256": "179d6d01247d991f53bdcbba969d1efe7033b07eb998be1250efdf1a42a37edc",
+  "pilotos_excluidos_das_estatisticas_finais": true
+}

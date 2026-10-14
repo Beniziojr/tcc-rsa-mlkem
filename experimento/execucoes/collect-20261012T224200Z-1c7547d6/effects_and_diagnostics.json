@@ -1,0 +1,194 @@
+{
+  "effects": [
+    {
+      "operation": "keygen",
+      "ratio_of_medians_RSA_over_MLKEM": 3168.212044016465,
+      "paired_block_bootstrap_ci95": [
+        2822.6524390243903,
+        3887.4800724028228
+      ],
+      "assumption": "blocos aproximadamente intercambiaveis; mesma reamostragem para os dois mecanismos"
+    },
+    {
+      "operation": "send",
+      "ratio_of_medians_RSA_over_MLKEM": 1.2580450697697996,
+      "paired_block_bootstrap_ci95": [
+        1.250412080584792,
+        1.2683631482572362
+      ],
+      "assumption": "blocos aproximadamente intercambiaveis; mesma reamostragem para os dois mecanismos"
+    },
+    {
+      "operation": "receive",
+      "ratio_of_medians_RSA_over_MLKEM": 37.12411449007637,
+      "paired_block_bootstrap_ci95": [
+        36.51628613767001,
+        37.60526127535375
+      ],
+      "assumption": "blocos aproximadamente intercambiaveis; mesma reamostragem para os dois mecanismos"
+    },
+    {
+      "operation": "cycle",
+      "ratio_of_medians_RSA_over_MLKEM": 22.909486759330346,
+      "paired_block_bootstrap_ci95": [
+        22.768366641109413,
+        23.037753622876707
+      ],
+      "assumption": "blocos aproximadamente intercambiaveis; mesma reamostragem para os dois mecanismos"
+    }
+  ],
+  "diagnostics": [
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "cycle",
+      "lag1_autocorrelation": 0.0885669977727262,
+      "median_first15_ns": 68162.6953125,
+      "median_last15_ns": 68257.8125,
+      "interpretation": "diagnostico descritivo; nao comprova independencia temporal nem estacionariedade"
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "keygen",
+      "lag1_autocorrelation": 0.1522511638579743,
+      "median_first15_ns": 32736.1328125,
+      "median_last15_ns": 32671.19140625,
+      "interpretation": "diagnostico descritivo; nao comprova independencia temporal nem estacionariedade"
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "receive",
+      "lag1_autocorrelation": -0.05201463292718269,
+      "median_first15_ns": 41399.8046875,
+      "median_last15_ns": 40936.328125,
+      "interpretation": "diagnostico descritivo; nao comprova independencia temporal nem estacionariedade"
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "send",
+      "lag1_autocorrelation": -0.010384692618634861,
+      "median_first15_ns": 27078.22265625,
+      "median_last15_ns": 26833.203125,
+      "interpretation": "diagnostico descritivo; nao comprova independencia temporal nem estacionariedade"
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "cycle",
+      "lag1_autocorrelation": -0.041540011217443024,
+      "median_first15_ns": 1569093.75,
+      "median_last15_ns": 1560756.25,
+      "interpretation": "diagnostico descritivo; nao comprova independencia temporal nem estacionariedade"
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "keygen",
+      "lag1_autocorrelation": -0.19260686715213304,
+      "median_first15_ns": 116518900.0,
+      "median_last15_ns": 93174400.0,
+      "interpretation": "diagnostico descritivo; nao comprova independencia temporal nem estacionariedade"
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "receive",
+      "lag1_autocorrelation": -0.13873904598058007,
+      "median_first15_ns": 1540443.75,
+      "median_last15_ns": 1532375.0,
+      "interpretation": "diagnostico descritivo; nao comprova independencia temporal nem estacionariedade"
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "send",
+      "lag1_autocorrelation": 0.09354030896332423,
+      "median_first15_ns": 34021.38671875,
+      "median_last15_ns": 33865.13671875,
+      "interpretation": "diagnostico descritivo; nao comprova independencia temporal nem estacionariedade"
+    }
+  ],
+  "artifacts": [
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "ciphertext",
+      "representation": "binary",
+      "n": 30,
+      "min_bytes": 768,
+      "max_bytes": 768
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "private_key",
+      "representation": "FIPS203-dk",
+      "n": 30,
+      "min_bytes": 1632,
+      "max_bytes": 1632
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "private_key",
+      "representation": "PKCS8-DER-default-provider",
+      "n": 30,
+      "min_bytes": 1730,
+      "max_bytes": 1730
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "public_key",
+      "representation": "FIPS203-ek",
+      "n": 30,
+      "min_bytes": 800,
+      "max_bytes": 800
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "public_key",
+      "representation": "SubjectPublicKeyInfo-DER",
+      "n": 30,
+      "min_bytes": 822,
+      "max_bytes": 822
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "secret",
+      "representation": "binary",
+      "n": 30,
+      "min_bytes": 32,
+      "max_bytes": 32
+    },
+    {
+      "algorithm": "RSA-3072",
+      "artifact": "ciphertext",
+      "representation": "binary",
+      "n": 30,
+      "min_bytes": 384,
+      "max_bytes": 384
+    },
+    {
+      "algorithm": "RSA-3072",
+      "artifact": "private_key",
+      "representation": "PKCS8-DER-default-provider",
+      "n": 30,
+      "min_bytes": 1792,
+      "max_bytes": 1795
+    },
+    {
+      "algorithm": "RSA-3072",
+      "artifact": "public_key",
+      "representation": "SubjectPublicKeyInfo-DER",
+      "n": 30,
+      "min_bytes": 422,
+      "max_bytes": 422
+    },
+    {
+      "algorithm": "RSA-3072",
+      "artifact": "secret",
+      "representation": "binary",
+      "n": 30,
+      "min_bytes": 32,
+      "max_bytes": 32
+    }
+  ],
+  "percentiles_scope": "distribuicao das 30 medias de lote, nao de latencias individuais",
+  "libraries": {
+    "matplotlib": "3.10.7",
+    "numpy": "2.5.4",
+    "pillow": "12.3.0"
+  }
+}

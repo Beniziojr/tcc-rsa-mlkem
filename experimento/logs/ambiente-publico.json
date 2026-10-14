@@ -1,0 +1,54 @@
+{
+  "DataUTC": "2026-10-12T20:52:10.4433411Z",
+  "CPU": {
+    "Name": "AMD Ryzen 5 5600 6-Core Processor              ",
+    "NumberOfCores": 6,
+    "NumberOfLogicalProcessors": 12,
+    "MaxClockSpeed": 3501
+  },
+  "MemoriaFisicaBytes": 34282856448,
+  "ModulosRAM": [
+    {
+      "Capacity": 17179869184,
+      "Speed": 3200,
+      "ConfiguredClockSpeed": 3200
+    },
+    {
+      "Capacity": 17179869184,
+      "Speed": 3200,
+      "ConfiguredClockSpeed": 3200
+    }
+  ],
+  "Sistema": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.26300",
+    "BuildNumber": "26300",
+    "OSArchitecture": "64 bits"
+  },
+  "PlanoEnergia": "GUID do Esquema de Energia: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (Alto desempenho)",
+  "OpenSSL": "OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)\r\nbuilt on: Mon Oct 12 20:33:45 2026 UTC\r\nplatform: VC-WIN64A\r\noptions:  bn(64,64)\r\ncompiler: cl  /Zi /Fdossl_static.pdb /Gs0 /GF /Gy /MD /W3 /wd4090 /nologo /O2 -DL_ENDIAN -DOPENSSL_PIC -D\"OPENSSL_BUILDING_OPENSSL\" -D\"OPENSSL_SYS_WIN32\" -D\"WIN32_LEAN_AND_MEAN\" -D\"UNICODE\" -D\"_UNICODE\" -D\"_CRT_SECURE_NO_DEPRECATE\" -D\"_WINSOCK_DEPRECATED_NO_WARNINGS\" -D\"NDEBUG\"\r\nOPENSSLDIR: \"experimento\\dependencias\\openssl-msvc-3.5.5\\ssl\"\r\nENGINESDIR: \"experimento\\dependencias\\openssl-msvc-3.5.5\\lib\\engines-3\"\r\nMODULESDIR: \"experimento\\dependencias\\openssl-msvc-3.5.5\\lib\\ossl-modules\"\r\nSeeding source: os-specific\r\nCPUINFO: OPENSSL_ia32cap=0xfed8320b078bffff:0x00400684219c97a9:0x0000000000000010:0x0000000000000000:0x0000000000000000",
+  "BuildBiblioteca": "VC-WIN64A shared; assembler habilitado; flags completos em openssl-build.log",
+  "BuildValidacao": "MSVC x64; /W4 /WX /O2 /MD /TC; libcrypto.lib",
+  "Hashes": [
+    {
+      "Arquivo": "experimento\\dependencias\\openssl-msvc-3.5.5\\bin\\openssl.exe",
+      "SHA256": "8318124B5FC952A23A79FE3D7707FD5A3758021A7E8E7F42A7195C5D010F0AA8"
+    },
+    {
+      "Arquivo": "experimento\\dependencias\\openssl-msvc-3.5.5\\bin\\libcrypto-3-x64.dll",
+      "SHA256": "C9DBBD562D37D5D2410B6595B23B88E8E157BDBB521B00952E7A3DDA17A1E64A"
+    },
+    {
+      "Arquivo": "experimento\\build\\validacao_evp.exe",
+      "SHA256": "59E04FD707E39443686746047E8F0B19641258AFC91A1DFFC3B931EDFF9DE60B"
+    },
+    {
+      "Arquivo": "experimento\\validacao_evp.c",
+      "SHA256": "7056386ABBFA84FA5C067E766B42E876F802D2081E8A4996008E1BAB0F17BD2B"
+    },
+    {
+      "Arquivo": "experimento\\compilar_validacao.cmd",
+      "SHA256": "3CE9214413CCD10B7190BD37A1ADB0FBFF38C5A4DAAD8232C92A6E8B4476A9EC"
+    }
+  ]
+}

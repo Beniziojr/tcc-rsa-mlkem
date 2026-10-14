@@ -1,0 +1,49 @@
+{
+  "Mode": "collect",
+  "Args": [
+    "--mode",
+    "collect",
+    "--out",
+    "experimento\\execucoes\\collect-20261012T224200Z-1c7547d6",
+    "--cpu",
+    "0",
+    "--seed",
+    "20261014",
+    "--target-ms",
+    "20",
+    "--warm-rsa",
+    "3",
+    "--warm-fast",
+    "1000",
+    "--blocks",
+    "30",
+    "--batches",
+    "1,1024,1024,1024,16,512,16,512"
+  ],
+  "ExitCode": 0,
+  "DataInicioUTC": "2026-10-12T22:42:00.2777010Z",
+  "DataFinalUTC": "2026-10-12T22:43:12.2847831Z",
+  "ComputadorLivreConfirmado": true,
+  "PlanoEnergiaInicio": "GUID do Esquema de Energia: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (Alto desempenho)",
+  "PlanoEnergiaFinal": "GUID do Esquema de Energia: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (Alto desempenho)",
+  "Hashes": [
+    {
+      "Arquivo": "benchmark.c",
+      "SHA256": "179D6D01247D991F53BDCBBA969D1EFE7033B07EB998BE1250EFDF1A42A37EDC"
+    },
+    {
+      "Arquivo": "compilar_benchmark.cmd",
+      "SHA256": "B25A898D926CD85C7758CBEF3CD0E1DDBCB8C83653394EA6FC07281880ECDC37"
+    },
+    {
+      "Arquivo": "build\\benchmark.exe",
+      "SHA256": "1A66A4D9591159A20E84E783DBAA03B1895ED53C65DF6C36E58EFAE177D3FC28"
+    },
+    {
+      "Arquivo": "dependencias\\openssl-msvc-3.5.5\\bin\\libcrypto-3-x64.dll",
+      "SHA256": "C9DBBD562D37D5D2410B6595B23B88E8E157BDBB521B00952E7A3DDA17A1E64A"
+    }
+  ],
+  "Observacao": "Condições de fundo e térmicas devem ser registradas na sessão de medição; não foram inferidas pelo programa.",
+  "PublicExport": "Caminhos locais abreviados; snapshots de processos omitidos. Medidas e hashes dos binários preservados."
+}

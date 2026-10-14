@@ -1,0 +1,15 @@
+{
+  "tipo": "validacao_funcional_C_EVP_sem_latencias",
+  "openssl_headers": "OpenSSL 3.5.5 27 Jan 2026",
+  "openssl_runtime": "OpenSSL 3.5.5 27 Jan 2026",
+  "msvc": 195136257,
+  "arquitetura_bits": 64,
+  "qpc_frequencia_hz": 10000000,
+  "qpc_nao_decrescente_1000_leituras": true,
+  "pares_de_chaves_por_mecanismo": 3,
+  "ciclos_validados_por_mecanismo": 30,
+  "rsa_ciphertext_bytes": 384,
+  "mlkem_ciphertext_bytes": 768,
+  "segredo_bytes": 32,
+  "sucesso": true
+}

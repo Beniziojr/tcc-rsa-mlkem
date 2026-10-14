@@ -1,0 +1,23 @@
+[
+  {
+    "Nome": "OpenSSL",
+    "Versao": "3.5.5",
+    "URL": "https://github.com/openssl/openssl/releases/download/openssl-3.5.5/openssl-3.5.5.tar.gz",
+    "SHA256": "B28C91532A8B65A1F983B4C28B7488174E4A01008E29CE8E69BD789F28BC2A89",
+    "Verificacao": "comparado com o SHA256 oficial"
+  },
+  {
+    "Nome": "Strawberry Perl",
+    "Versao": "5.42.3.1",
+    "URL": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54231_64bit/strawberry-perl-5.42.3.1-64bit-portable.zip",
+    "SHA256": "6A081A811781C30ACA51DBC036AFD93092AF91E3297901F02C17043795A10690",
+    "Verificacao": "comparado com releases.json oficial"
+  },
+  {
+    "Nome": "NASM",
+    "Versao": "2.16.03",
+    "URL": "https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/win64/nasm-2.16.03-win64.zip",
+    "SHA256": "3EE4782247BCB874378D02F7EAB4E294A84D3D15F3F6EE2DE2F47A46AA7226E6",
+    "Verificacao": "hash local registrado; origem oficial HTTPS"
+  }
+]

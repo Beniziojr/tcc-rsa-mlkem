@@ -1,0 +1,226 @@
+{
+  "session": 1,
+  "run": "collect-20261015T005644Z-bb3109c8",
+  "status": "COMPLETED_AND_CHECKED",
+  "blocks": 300,
+  "valid_batches": 2400,
+  "excluded": 0,
+  "duration_seconds": 657.945234,
+  "start_utc": "2026-10-15T00:56:44.2789859Z",
+  "end_utc": "2026-10-15T01:07:42.2242198Z",
+  "telemetry_timezone_assumption": "America/Sao_Paulo, UTC-03:00; GUI timestamps have one-second precision and no zone suffix.",
+  "telemetry_snapshot_sha256": "922e5a59eaf9aca8c6b66ccf385cc4b25a438baa0833178bed127fe61a7dae51",
+  "coverage_start_utc": "2026-10-15T00:54:53+00:00",
+  "coverage_end_utc": "2026-10-15T01:08:32+00:00",
+  "telemetry_samples_during_run": 655,
+  "gap_min_seconds": 1.0,
+  "gap_median_seconds": 1.0,
+  "gap_max_seconds": 2.0,
+  "gaps_above_two_seconds": 0,
+  "sensors": [
+    {
+      "id": "/amdcpu/0/clock/2",
+      "name": "Cores (Average Effective)",
+      "unit": "MHz",
+      "n": 655,
+      "min": 362.0,
+      "max": 1164.0,
+      "mean": 441.62748091603055
+    },
+    {
+      "id": "/amdcpu/0/clock/4",
+      "name": "Core #1 (Effective)",
+      "unit": "MHz",
+      "n": 655,
+      "min": 1586.0,
+      "max": 3311.5,
+      "mean": 2301.408396946565
+    },
+    {
+      "id": "/amdcpu/0/clock/6",
+      "name": "Core #2 (Effective)",
+      "unit": "MHz",
+      "n": 655,
+      "min": 21.5,
+      "max": 696.5,
+      "mean": 54.16870229007633
+    },
+    {
+      "id": "/amdcpu/0/clock/8",
+      "name": "Core #3 (Effective)",
+      "unit": "MHz",
+      "n": 655,
+      "min": 11.0,
+      "max": 484.5,
+      "mean": 26.170992366412214
+    },
+    {
+      "id": "/amdcpu/0/clock/10",
+      "name": "Core #4 (Effective)",
+      "unit": "MHz",
+      "n": 655,
+      "min": 61.0,
+      "max": 1667.0,
+      "mean": 177.56870229007635
+    },
+    {
+      "id": "/amdcpu/0/clock/12",
+      "name": "Core #5 (Effective)",
+      "unit": "MHz",
+      "n": 655,
+      "min": 18.5,
+      "max": 1140.0,
+      "mean": 78.36641221374046
+    },
+    {
+      "id": "/amdcpu/0/clock/14",
+      "name": "Core #6 (Effective)",
+      "unit": "MHz",
+      "n": 655,
+      "min": 6.5,
+      "max": 255.5,
+      "mean": 12.093893129770992
+    },
+    {
+      "id": "/amdcpu/0/temperature/2",
+      "name": "Core (Tctl/Tdie)",
+      "unit": "degC",
+      "n": 655,
+      "min": 57.6250076,
+      "max": 68.37501,
+      "mean": 63.53054220396947
+    },
+    {
+      "id": "/amdcpu/0/temperature/3",
+      "name": "CCD1 (Tdie)",
+      "unit": "degC",
+      "n": 655,
+      "min": 58.2500038,
+      "max": 71.75,
+      "mean": 62.639698363664124
+    }
+  ],
+  "component_hashes_checked": [
+    "benchmark.c",
+    "compilar_benchmark.cmd",
+    "build\\benchmark.exe",
+    "dependencias\\openssl-msvc-3.5.5\\bin\\libcrypto-3-x64.dll"
+  ],
+  "cycle_ratio_of_medians": 22.91174202593761,
+  "comparison": [
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "cycle",
+      "median_us": 66.8671875,
+      "mean_us": 67.682546875,
+      "ci95_median_us": [
+        66.788671875,
+        66.9748046875
+      ],
+      "relative_half_width_percent": 0.13918097908634186,
+      "original_median_us": 68.17890625,
+      "change_percent": -1.9239363347809624
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "keygen",
+      "median_us": 31.818603515625,
+      "mean_us": 32.03551399739583,
+      "ci95_median_us": [
+        31.77060546875,
+        31.86845703125
+      ],
+      "relative_half_width_percent": 0.15376470317427432,
+      "original_median_us": 32.680419921875,
+      "change_percent": -2.637103220552972
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "receive",
+      "median_us": 40.3876953125,
+      "mean_us": 40.773287760416665,
+      "ci95_median_us": [
+        40.35732177734375,
+        40.42466552734375
+      ],
+      "relative_half_width_percent": 0.08337161786396499,
+      "original_median_us": 41.28701171875,
+      "change_percent": -2.178206580743136
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "send",
+      "median_us": 26.343017578125,
+      "mean_us": 26.635150065104167,
+      "ci95_median_us": [
+        26.32138671875,
+        26.363671875
+      ],
+      "relative_half_width_percent": 0.08025875571125383,
+      "original_median_us": 26.9720703125,
+      "change_percent": -2.3322374852458805
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "cycle",
+      "median_us": 1532.04375,
+      "mean_us": 1534.9085833333334,
+      "ci95_median_us": [
+        1528.128125,
+        1535.89375
+      ],
+      "relative_half_width_percent": 0.2534400535232757,
+      "original_median_us": 1561.94375,
+      "change_percent": -1.91428148420838
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "keygen",
+      "median_us": 114632.2,
+      "mean_us": 132092.70666666667,
+      "ci95_median_us": [
+        107344.6,
+        125840.2
+      ],
+      "relative_half_width_percent": 8.067366760822875,
+      "original_median_us": 103538.5,
+      "change_percent": 10.714565113460207
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "receive",
+      "median_us": 1496.975,
+      "mean_us": 1497.91475,
+      "ci95_median_us": [
+        1487.15625,
+        1499.10625
+      ],
+      "relative_half_width_percent": 0.39913826216202675,
+      "original_median_us": 1532.74375,
+      "change_percent": -2.3336418758843402
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "send",
+      "median_us": 33.1126953125,
+      "mean_us": 33.5224970703125,
+      "ci95_median_us": [
+        33.087109375,
+        33.1904296875
+      ],
+      "relative_half_width_percent": 0.15601314167408886,
+      "original_median_us": 33.932080078125,
+      "change_percent": -2.414779063760475
+    }
+  ],
+  "limits": [
+    "Uma das três sessões planejadas; não agrupar com a coleta original.",
+    "Monitor GUI CPU-only diferente do logger usado no teste funcional: mesmo motor de sensores; custo de interferência não isolado.",
+    "Registro de processos somente antes e depois, sem comprovação de ausência de interferência durante toda a sessão.",
+    "Tempo de sensores em segundos; não resolve operações individuais ou todos os lotes.",
+    "Os intervalos dentro da sessão usam o bootstrap percentil original e suas hipóteses."
+  ],
+  "preparation_reported": "Repouso individual não confirmado no relatório de auditoria.",
+  "telemetry_file": "telemetria_sensores.csv",
+  "verification_scope": "Resumo exportado da conferência local; hashes atuais dos componentes não são verificados ao baixar este acervo sem os binários originais. Estatísticas e telemetria são recalculáveis a partir dos CSVs."
+}

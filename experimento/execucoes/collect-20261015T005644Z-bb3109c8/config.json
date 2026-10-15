@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "mode": "collect",
+  "openssl_headers": "OpenSSL 3.5.5 27 Jan 2026",
+  "openssl_runtime": "OpenSSL 3.5.5 27 Jan 2026",
+  "loaded_libcrypto": "experimento\\dependencias\\openssl-msvc-3.5.5\\bin\\libcrypto-3-x64.dll",
+  "provider": "default",
+  "msvc": 195136257,
+  "blocks": 300,
+  "seed_order": 20261021,
+  "logical_cpu": 0,
+  "qpc_frequency_hz": 10000000,
+  "target_batch_ms": 20.0,
+  "warmup_rsa_keygen": 3,
+  "warmup_other_operations": 1000,
+  "initial_batches": [
+    1,
+    1024,
+    1024,
+    1024,
+    16,
+    512,
+    16,
+    512
+  ]
+}

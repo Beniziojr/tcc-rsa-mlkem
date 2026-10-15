@@ -1,0 +1,293 @@
+{
+  "run": "collect-20261015T005644Z-bb3109c8",
+  "statistics_recomputed_from_raw_ticks": true,
+  "statistics": [
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "cycle",
+      "n": 300,
+      "median_ns": 66867.1875,
+      "mean_ns": 67682.546875,
+      "median_ci95_ns": [
+        66788.671875,
+        66974.8046875
+      ],
+      "mean_ci95_ns": [
+        67409.27516276042,
+        67976.87783203126
+      ],
+      "median_first150_ns": 66895.80078125,
+      "median_last150_ns": 66830.078125,
+      "lag1_descriptive": -0.0028457756768714404,
+      "scope": "Médias de lote dentro desta sessão; IC condicionado à adequação da reamostragem."
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "keygen",
+      "n": 300,
+      "median_ns": 31818.603515625,
+      "mean_ns": 32035.513997395832,
+      "median_ci95_ns": [
+        31770.60546875,
+        31868.45703125
+      ],
+      "mean_ci95_ns": [
+        31881.224536132813,
+        32215.06180013021
+      ],
+      "median_first150_ns": 31905.46875,
+      "median_last150_ns": 31643.84765625,
+      "lag1_descriptive": 0.17480440703452302,
+      "scope": "Médias de lote dentro desta sessão; IC condicionado à adequação da reamostragem."
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "receive",
+      "n": 300,
+      "median_ns": 40387.6953125,
+      "mean_ns": 40773.287760416664,
+      "median_ci95_ns": [
+        40357.32177734375,
+        40424.66552734375
+      ],
+      "mean_ci95_ns": [
+        40616.20981445313,
+        40957.07316080729
+      ],
+      "median_first150_ns": 40374.4140625,
+      "median_last150_ns": 40407.03125,
+      "lag1_descriptive": 0.05901056396979171,
+      "scope": "Médias de lote dentro desta sessão; IC condicionado à adequação da reamostragem."
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "operation": "send",
+      "n": 300,
+      "median_ns": 26343.017578125,
+      "mean_ns": 26635.150065104168,
+      "median_ci95_ns": [
+        26321.38671875,
+        26363.671875
+      ],
+      "mean_ci95_ns": [
+        26515.995646158855,
+        26772.102107747396
+      ],
+      "median_first150_ns": 26344.775390625,
+      "median_last150_ns": 26339.84375,
+      "lag1_descriptive": 0.10356420794981513,
+      "scope": "Médias de lote dentro desta sessão; IC condicionado à adequação da reamostragem."
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "cycle",
+      "n": 300,
+      "median_ns": 1532043.75,
+      "mean_ns": 1534908.5833333333,
+      "median_ci95_ns": [
+        1528128.125,
+        1535893.75
+      ],
+      "mean_ci95_ns": [
+        1529279.7791666666,
+        1541112.5375
+      ],
+      "median_first150_ns": 1531703.125,
+      "median_last150_ns": 1532268.75,
+      "lag1_descriptive": 0.03889818979721984,
+      "scope": "Médias de lote dentro desta sessão; IC condicionado à adequação da reamostragem."
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "keygen",
+      "n": 300,
+      "median_ns": 114632200.0,
+      "mean_ns": 132092706.66666667,
+      "median_ci95_ns": [
+        107344600.0,
+        125840200.0
+      ],
+      "mean_ci95_ns": [
+        122920013.9,
+        141797389.89166665
+      ],
+      "median_first150_ns": 110037800.0,
+      "median_last150_ns": 119235100.0,
+      "lag1_descriptive": -0.00570014429375603,
+      "scope": "Médias de lote dentro desta sessão; IC condicionado à adequação da reamostragem."
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "receive",
+      "n": 300,
+      "median_ns": 1496975.0,
+      "mean_ns": 1497914.75,
+      "median_ci95_ns": [
+        1487156.25,
+        1499106.25
+      ],
+      "mean_ci95_ns": [
+        1492392.3838541666,
+        1503924.5901041667
+      ],
+      "median_first150_ns": 1498090.625,
+      "median_last150_ns": 1494715.625,
+      "lag1_descriptive": -0.06376813955102337,
+      "scope": "Médias de lote dentro desta sessão; IC condicionado à adequação da reamostragem."
+    },
+    {
+      "algorithm": "RSA-3072-OAEP-SHA256",
+      "operation": "send",
+      "n": 300,
+      "median_ns": 33112.6953125,
+      "mean_ns": 33522.4970703125,
+      "median_ci95_ns": [
+        33087.109375,
+        33190.4296875
+      ],
+      "mean_ci95_ns": [
+        33370.37325032552,
+        33700.319124348964
+      ],
+      "median_first150_ns": 33135.25390625,
+      "median_last150_ns": 33105.078125,
+      "lag1_descriptive": 0.03166748578432115,
+      "scope": "Médias de lote dentro desta sessão; IC condicionado à adequação da reamostragem."
+    }
+  ],
+  "paired_effects": [
+    {
+      "operation": "keygen",
+      "ratio_of_medians": 3602.6785381611153,
+      "paired_ci95": [
+        3374.1625420854734,
+        3953.563819676081
+      ],
+      "resamples": 10000,
+      "seed": 20261012
+    },
+    {
+      "operation": "send",
+      "ratio_of_medians": 1.25698186300405,
+      "paired_ci95": [
+        1.2557256359459463,
+        1.2599922563187047
+      ],
+      "resamples": 10000,
+      "seed": 20261012
+    },
+    {
+      "operation": "receive",
+      "ratio_of_medians": 37.06512561355998,
+      "paired_ci95": [
+        36.817231760811694,
+        37.1253291162079
+      ],
+      "resamples": 10000,
+      "seed": 20261012
+    },
+    {
+      "operation": "cycle",
+      "ratio_of_medians": 22.91174202593761,
+      "paired_ci95": [
+        22.836390733240403,
+        22.973306900861473
+      ],
+      "resamples": 10000,
+      "seed": 20261012
+    }
+  ],
+  "artifact_sizes": [
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "ciphertext",
+      "representation": "binary",
+      "n": 300,
+      "min_bytes": 768,
+      "max_bytes": 768
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "private_key",
+      "representation": "FIPS203-dk",
+      "n": 300,
+      "min_bytes": 1632,
+      "max_bytes": 1632
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "private_key",
+      "representation": "PKCS8-DER-default-provider",
+      "n": 300,
+      "min_bytes": 1730,
+      "max_bytes": 1730
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "public_key",
+      "representation": "FIPS203-ek",
+      "n": 300,
+      "min_bytes": 800,
+      "max_bytes": 800
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "public_key",
+      "representation": "SubjectPublicKeyInfo-DER",
+      "n": 300,
+      "min_bytes": 822,
+      "max_bytes": 822
+    },
+    {
+      "algorithm": "ML-KEM-512",
+      "artifact": "secret",
+      "representation": "binary",
+      "n": 300,
+      "min_bytes": 32,
+      "max_bytes": 32
+    },
+    {
+      "algorithm": "RSA-3072",
+      "artifact": "ciphertext",
+      "representation": "binary",
+      "n": 300,
+      "min_bytes": 384,
+      "max_bytes": 384
+    },
+    {
+      "algorithm": "RSA-3072",
+      "artifact": "private_key",
+      "representation": "PKCS8-DER-default-provider",
+      "n": 300,
+      "min_bytes": 1791,
+      "max_bytes": 1795
+    },
+    {
+      "algorithm": "RSA-3072",
+      "artifact": "public_key",
+      "representation": "SubjectPublicKeyInfo-DER",
+      "n": 300,
+      "min_bytes": 422,
+      "max_bytes": 422
+    },
+    {
+      "algorithm": "RSA-3072",
+      "artifact": "secret",
+      "representation": "binary",
+      "n": 300,
+      "min_bytes": 32,
+      "max_bytes": 32
+    }
+  ],
+  "sha256": {
+    "raw.csv": "e7d356666fd0c8bec2eac8fae3d78aadafaa0f49d07ab4a7e4bf1bb9c0a3b703",
+    "sizes.csv": "074b0f21815351a6ef59e61e45b5f0bf3d805139f65cf6a4a66bcc20638fb5b0",
+    "clock.csv": "7cc8cb84ad9dcc8e63f949e2d3149e7d12f18c26611d08f823588ee697dc53b5",
+    "config.json": "d3cb0de0447ab25dd003ec7f21cf58d1097fb6f3178baee4b48af320f0a59271",
+    "run.json": "a6552ba3c03349c65a86d5654132bf064cb11fc1a2bd624b2e9f81b2d5efc450",
+    "selected_batches.txt": "3ab72e4c723a2f7520241fb70e383085a7569a6435ed08f281e3268166fa0285",
+    "SUCCESS.txt": "421e6aae48aacc3a7fff7ef7ad191ec6202b4b7d4df2d3aa9835f0a4e740edaa",
+    "telemetria_sensores.csv": "922e5a59eaf9aca8c6b66ccf385cc4b25a438baa0833178bed127fe61a7dae51"
+  },
+  "original_rows_preserved": true
+}

@@ -1,0 +1,10 @@
+{
+  "raw.csv": "e7d356666fd0c8bec2eac8fae3d78aadafaa0f49d07ab4a7e4bf1bb9c0a3b703",
+  "sizes.csv": "074b0f21815351a6ef59e61e45b5f0bf3d805139f65cf6a4a66bcc20638fb5b0",
+  "clock.csv": "7cc8cb84ad9dcc8e63f949e2d3149e7d12f18c26611d08f823588ee697dc53b5",
+  "config.json": "d3cb0de0447ab25dd003ec7f21cf58d1097fb6f3178baee4b48af320f0a59271",
+  "run.json": "a6552ba3c03349c65a86d5654132bf064cb11fc1a2bd624b2e9f81b2d5efc450",
+  "selected_batches.txt": "3ab72e4c723a2f7520241fb70e383085a7569a6435ed08f281e3268166fa0285",
+  "SUCCESS.txt": "421e6aae48aacc3a7fff7ef7ad191ec6202b4b7d4df2d3aa9835f0a4e740edaa",
+  "telemetria_sensores.csv": "922e5a59eaf9aca8c6b66ccf385cc4b25a438baa0833178bed127fe61a7dae51"
+}

@@ -1,0 +1,18 @@
+{
+  "session": 1,
+  "blocks": 300,
+  "seed_order": 20261021,
+  "batches": [
+    1,
+    1024,
+    1024,
+    1024,
+    16,
+    512,
+    16,
+    512
+  ],
+  "telemetry": "telemetria_sensores.csv",
+  "preparation_reported": "Repouso individual não confirmado no relatório de auditoria.",
+  "rest_independently_verified": false
+}
